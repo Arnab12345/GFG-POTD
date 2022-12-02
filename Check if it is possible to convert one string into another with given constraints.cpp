@@ -20,7 +20,7 @@ int isItPossible(string S, string T, int M, int N) {
         int hashBeforeA=0;
         int hashAfterB=0;
         int flag1=0; //flag to find last A
-        int flag2=0; //flag to find fisrt B
+        int flag2=0; //flag to find first B
         for(int i=0;i<M;i++)
         {
             if(S[i]=='B') flag1=1;
